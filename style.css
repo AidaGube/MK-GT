@@ -1,0 +1,29 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    width: 150px;
+    height: 150px;
+    background-color: darkgoldenrod;
+    border: none;
+    border-radius: 20%;
+    font-size: 24px;
+    color: cyan;
+    box-shadow: 5px 5px 10px #878787;
+    transition: .3s;
+}
+.button:hover{
+    transform: scale(1.2) rotate(360deg);
+    background-color: greenyellow;
+    color: magenta;
+    box-shadow: 5px 5px 10px gold;
+}
